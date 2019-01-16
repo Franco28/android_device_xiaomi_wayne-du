@@ -1,9 +1,9 @@
 [
   {
     "remote":      "github",
-    "repository":  "xiaomi-sdm660/android_device_xiaomi_sdm660-common",
+    "repository":  "Franco28/android_device_sdm660_common",
     "target_path": "device/xiaomi/sdm660-common"
-    "branch":      "havoc"
+    "branch":      "master"
   },
   {
     "remote":      "github",
@@ -13,14 +13,26 @@
   },
   {
     "remote":      "github",
-    "repository":  "xiaomi-sdm660/android_vendor_xiaomi_wayne",
+    "repository":  "Franco28/vendor_xiaomi_wayne-du",
     "target_path": "vendor/xiaomi/wayne",
     "branch":      "master"
   },
   {
-    "remote":      "los",
-    "repository":  "android_packages_resources_devicesettings",
+    "remote":      "github",
+    "repository":  "Franco28/android_device_xiaomi_wayne-du",
+    "target_path": "device/xiaomi/wayne",
+    "branch":      "master"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_packages_resources_devicesettings",
     "target_path": "packages/resources/devicesettings",
+    "branch":      "lineage-16.0"
+  },
+  {
+    "remote":      "github",
+    "repository":  "LineageOS/android_device_qcom_sepolicy",
+    "target_path": "device/qcom/sepolicy",
     "branch":      "lineage-16.0"
   },
 ]
