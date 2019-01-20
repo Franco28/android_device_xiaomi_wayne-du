@@ -48,10 +48,7 @@ PRODUCT_COPY_FILES += \
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
 
-# Biometrics
-PRODUCT_PACKAGES += \
-    android.hardware.biometrics.fingerprint@2.1-service.xiaomi_wayne
-
+# IFAA
 PRODUCT_PACKAGES += \
     org.ifaa.android.manager
 
