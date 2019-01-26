@@ -32,7 +32,8 @@ TARGET_TAP_TO_WAKE_NODE := "/proc/nvt_wake_gesture"
 # Kernel
 TARGET_KERNEL_SOURCE := kernel/xiaomi/wayne/sdm660
 TARGET_KERNEL_CONFIG := wayne-perf_defconfig
-#TARGET_KERNEL_CLANG_VERSION := 8.0.7
+TARGET_KERNEL_CLANG_VERSION := 8.0.7
+TARGET_KERNEL_CLANG_COMPILE := true
 
 # Manifest
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/manifest.xml
