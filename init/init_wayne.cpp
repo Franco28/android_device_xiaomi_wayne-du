@@ -107,7 +107,7 @@ static void init_setup_model_properties()
     fin.close();
 
     if (buf.find("2.31.0") != std::string::npos) {
-        property_set("ro.product.model", "MI 6X MIKU");
+        property_set("ro.product.model", "MI 6X");
     } else {
         property_set("ro.product.model", "MI 6X");
     }
