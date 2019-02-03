@@ -1,36 +1,25 @@
-This repository contains device configuration for Xiaomi MI 6X (wayne)
+Copyright (C) 2018 Lineage OS Projects
 
-Basic   | Spec Sheet
--------:|:----------
-CPU     | Quad-core 1.84 GHz Qualcomm Kryo 260 LP
-CPU     | Quad-core 2.20 GHz Qualcomm Kryo 260 HP
-Chipset | Qualcomm Snapdragon 660, SDM660
-GPU     | Adreno 512
-ROM     | 32/64/128GB
-RAM     | 3/4/6GB
-Android | 8.1.0
-Battery | 3010 mAh
-Display | 1080x2160 pixels, 5.99
-Rear Camera  | 12MP+20MP, AI Dual Camera
-Front Camera | 20 MP
+The MI 6X (codenamed _"wayne"_) is a mid-range phone from Xiaomi.
+
+Xiaomi MI 6X was announced and released in July 2018.
+
+## Device specifications
+
+| Device       | Xiaomi MI 6X         |
+| -----------: | :---------------------------------------------- |
+| SoC          | Qualcomm SDM660 Snapdragon 660                  |
+| CPU          | 8x Qualcomm® Kryo™ 260 up to 2.2GHz             |
+| GPU          | Adreno 512                                      |
+| Memory       | 4GB / 6GB RAM (LPDDR4X)                   |
+| Shipped Android version | 8.1.0                           	 |
+| Storage      | 32/64/128GB eMMC 5.1 flash storage              |
+| Battery      | Non-removable Li-Po 3010 mAh               	 |
+| Dimensions   | 158.7 x 75.4 x 7.3 mm	                         |
+| Display      | 1080x2160 pixels, 5.99    						 |
+Rear Camera    | 12MP+20MP, AI Dual Camera
+Front Camera   | 20 MP
+
+## Device picture
 
 ![Xiaomi MI 6X](https://cdn.cnbj0.fds.api.mi-img.com/b2c-mimall-media/a4842f9afc615164af83c2088a412fc0.jpg "Xiaomi MI 6X")
-
-## Copyright
-
-```
-#
-# Copyright (C) 2018 The LineageOS Project
-#
-# Licensed under the Apache License, Version 2.0 (the "License");
-# you may not use this file except in compliance with the License.
-# You may obtain a copy of the License at
-#
-#      http://www.apache.org/licenses/LICENSE-2.0
-#
-# Unless required by applicable law or agreed to in writing, software
-# distributed under the License is distributed on an "AS IS" BASIS,
-# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-# See the License for the specific language governing permissions and
-# limitations under the License.
-#

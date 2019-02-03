@@ -31,9 +31,9 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_VENDOR_PRODUCT_NAME := wayne
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    PRIVATE_BUILD_DESC="taimen-user 9 PQ1A.190105.004 5148680 release-keys"
+    PRIVATE_BUILD_DESC="wayne-user 8.1.0 OPM1.171019.011 V10.2.1.0.ODCCNXM release-keys"
 
-BUILD_FINGERPRINT := google/taimen/taimen:9/PQ1A.190105.004/5148680:user/release-keys
+BUILD_FINGERPRINT := xiaomi/wayne/wayne:8.1.0/OPM1.171019.011/V10.2.1.0.ODCCNXM:user/release-keys
 
 # Device identifier
 PRODUCT_BRAND := Xiaomi

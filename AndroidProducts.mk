@@ -21,6 +21,6 @@
 # definition file).
 #
 
-# inherit MI 6X DU device config
+# inherit MI 6X Dirty Unicorns device config
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/du_wayne.mk
+    $(LOCAL_DIR)/du.mk

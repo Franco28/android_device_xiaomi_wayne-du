@@ -22,7 +22,7 @@
 #
 
 # Inherit the fusion-common definitions
-$(call inherit-product, device/xiaomi/sdm660-common/platform.mk)
+$(call inherit-product, device/xiaomi/sdm660-common/sdm660.mk)
 
 # Device Path
 DEVICE_PATH := device/xiaomi/wayne
@@ -44,6 +44,7 @@ PRODUCT_COPY_FILES += \
 	$(DEVICE_PATH)/audio/audio_tuning_mixer.txt:$(TARGET_COPY_OUT_VENDOR)/etc/audio_tuning_mixer.txt \
 	$(DEVICE_PATH)/audio/graphite_ipc_platform_info.xml:$(TARGET_COPY_OUT_VENDOR)/etc/graphite_ipc_platform_info.xml
 
+	
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2160
 TARGET_SCREEN_WIDTH := 1080
@@ -55,6 +56,7 @@ PRODUCT_PACKAGES += \
 
 # Device properties
 $(call inherit-product, $(DEVICE_PATH)/device_prop.mk)
+
 
 # Init
 PRODUCT_PACKAGES += \
@@ -95,6 +97,6 @@ $(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
 # AOSP DEVICE
 PRODUCT_NAME := du_wayne
 PRODUCT_DEVICE := wayne
-PRODUCT_MODEL := Mi 6X (DU)
+PRODUCT_MODEL := Mi 6X (AOSP)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
