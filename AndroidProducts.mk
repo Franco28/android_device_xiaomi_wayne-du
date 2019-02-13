@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2019 The Xiaomi-SDM660 Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,6 +21,6 @@
 # definition file).
 #
 
-# inherit MI 6X PixelExperience device config
+# inherit MI 6X DU device config
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/du.mk

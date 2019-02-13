@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2019 The Xiaomi-SDM660 Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -24,9 +24,8 @@
 # Inherit device configuration
 $(call inherit-product, device/xiaomi/wayne/device.mk)
 
-# Inherit from PixelExperience custom product configuration
+# Inherit from DU custom product configuration
 $(call inherit-product, vendor/du/config/common_full_phone.mk)
-TARGET_GAPPS_ARCH := arm64
 
 TARGET_VENDOR_PRODUCT_NAME := wayne
 

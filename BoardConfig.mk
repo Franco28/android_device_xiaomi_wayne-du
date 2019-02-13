@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2018 The Xiaomi-SDM660 Project
+# Copyright (C) 2019 The Xiaomi-SDM660 Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -21,7 +21,7 @@
 # definition file).
 #
 
-include device/xiaomi/sdm660-common/BoardConfigCommon.mk
+include device/xiaomi/sdm660-common/PlatformConfig.mk
 
 # Device Path
 DEVICE_PATH := device/xiaomi/wayne
@@ -30,7 +30,7 @@ DEVICE_PATH := device/xiaomi/wayne
 TARGET_TAP_TO_WAKE_NODE := "/proc/nvt_wake_gesture"
 
 # Kernel
-TARGET_KERNEL_SOURCE := kernel/xiaomi/wayne/sdm660
+TARGET_KERNEL_SOURCE := kernel/xiaomi/sdm660
 TARGET_KERNEL_CONFIG := wayne-perf_defconfig
 TARGET_KERNEL_CLANG_VERSION := 8.0.8
 TARGET_KERNEL_CLANG_COMPILE := true
