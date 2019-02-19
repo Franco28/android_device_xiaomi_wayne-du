@@ -92,7 +92,7 @@ PRODUCT_PACKAGES += \
 # Vendor files
 $(call inherit-product, vendor/xiaomi/wayne/wayne-vendor.mk)
 
-# AOSP DEVICE
+# DU DEVICE
 PRODUCT_NAME := du_wayne
 PRODUCT_DEVICE := wayne
 PRODUCT_MODEL := Mi 6X (DU)
