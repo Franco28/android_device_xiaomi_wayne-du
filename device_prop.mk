@@ -60,6 +60,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 	ro.eyecare.brightness.threshold=3 \
 	ro.eyecare.brightness.level=8 \
 	ro.hist.brightness.threshold=5 \
+	persist.camera.HAL3.enabled=1 \
 	persist.vendor.camera.multicam.hwsync=TRUE \
 	persist.vendor.camera.multicam.fpsmatch=TRUE \
 	persist.vendor.camera.multicam.framesync=1 \
